@@ -1,0 +1,100 @@
+// sources
+@import 'src/_var.scss'; // project variables
+@import 'src/_wordpress.scss'; // wp classes
+@import 'src/_bootstrap.scss'; // bootstrap
+@import 'src/_slick.scss'; // slick slider
+@import 'src/_jquery.fancybox.scss'; // fancybox
+
+// modules
+
+// utilites
+*{
+	outline: none !important;
+}
+.wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	min-width: 320px;
+}
+.container{
+	min-width: 320px;
+}
+.btn-yellow{
+	background: #fcdf00;
+	color: #1b5352;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 46px;
+	padding: 0 25px;
+	text-transform: uppercase;
+	border-radius: 23px;
+	transition: all .3s;
+	&:hover{
+		color: #1b5352;
+		background: darken(#fcdf00,10%);
+	}
+}
+.col-xs-2-10{
+	display: block;
+	float: left;
+	padding: 0 15px;
+	width: 20%;
+}
+.pagination{
+	margin-bottom: 50px;
+}
+.social-post{
+	margin: 15px 0;
+	.soc-title{
+		float: left;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 26px;
+	}
+}
+
+// forms
+.senk{
+	color: #16515f;
+	font-family: NautilusPompilius;
+	font-size: 33px;
+	line-height: 33px;
+	font-weight: 400;
+	text-align: center;
+	margin: 30px 0;
+}
+.modal-form{
+	width: 240px;
+	margin: 0 auto;
+	.title{
+		color: #16515f;
+		font-family: NautilusPompilius;
+		font-size: 33px;
+		line-height: 33px;
+		font-weight: 400;
+		text-align: center;
+		margin-bottom: 10px;
+		@media screen and (max-width: 500px){
+			font-size: 23px;
+			margin-top: 0;
+			margin-bottom: 5px;
+		}
+	}
+	@media screen and (max-width: 500px){
+		.form-group{
+			margin-bottom: 5px;
+		}
+	}
+}
+.webber{
+	img{
+		height: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	a{
+		color: #fff;
+	}
+}
